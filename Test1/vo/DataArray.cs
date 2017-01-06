@@ -48,12 +48,24 @@ namespace Test1
 			Random rd = new Random();
 			this.key = rd.Next(0,len-1) ;
 
+            Console.WriteLine("choose key , the key is : {0} : ", this.key);
+
 		}
 
 		public int get_key()
 		{
 			return this.key;
 		}
+
+        public bool EqualKey( int num  )
+        {
+            Data data = this.dataArray[this.key];
+
+            if (num == data.number)
+                return true;
+            else
+                return false;
+        }
 
 	}
 }

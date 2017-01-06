@@ -19,6 +19,8 @@ namespace Test1
 			DataArray dataArray = new DataArray();
 			const Int32 Buffersize = 128;
 
+
+            Console.WriteLine("从文本中读取数据");
 			using (var FileStream = File.OpenRead(path))
 			{
 				using (var stringReader = new StreamReader(FileStream, Encoding.UTF8, true, Buffersize))
@@ -32,9 +34,6 @@ namespace Test1
 
 						//Console.WriteLine("len : {0} ", sArray.Length);
 						Console.WriteLine("{0} {1}", sArray[0], sArray[1]);
-
-
-						Console.WriteLine("");
 
 						//DataArray[i] = new Data(int.Parse(sArray[0]), sArray[1] );
 						Data data = new Data(int.Parse(sArray[0]), sArray[1]);

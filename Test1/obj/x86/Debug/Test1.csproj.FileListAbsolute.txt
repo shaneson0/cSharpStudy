@@ -1,0 +1,5 @@
+F:\前端\csharp\cSharpStudy\Test1\obj\x86\Debug\Test1.exe
+F:\前端\csharp\cSharpStudy\Test1\bin\Debug\Test1.exe
+F:\前端\csharp\cSharpStudy\Test1\bin\Debug\Test1.pdb
+F:\前端\csharp\cSharpStudy\Test1\obj\x86\Debug\Test1.csprojResolveAssemblyReference.cache
+F:\前端\csharp\cSharpStudy\Test1\obj\x86\Debug\Test1.pdb
